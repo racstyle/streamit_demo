@@ -7,7 +7,7 @@ import demo_2_page_2
 st.set_page_config(page_title="Streamlit Demo", layout="wide")
 
 # This appears in each page
-st.info("Hello, welcome to my Streamlit demo!  This demo will show the basics of Streamlit.")
+st.info("Hello, welcome to my Streamlit demo!  Hello world!  This demo will show the basics of Streamlit.")
 
 # This appears only in the sidebar
 st.sidebar.header("Hi there, choose a page where you want to go:")
