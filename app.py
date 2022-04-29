@@ -22,3 +22,6 @@ pages = {
 # Navigation radios, appear in the sidebar
 nav = st.sidebar.radio(label="", options=pages)     # nav buttons
 pages[nav].app()    # call the selected page's app() function
+
+# See the code!
+st.sidebar.info("You can see the code in my [GitHub repo](https://github.com/racstyle/streamlit_demo)!")
