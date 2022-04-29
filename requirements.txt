@@ -224,7 +224,7 @@ pep8=1.7.1=py39haa95532_0
 pexpect=4.8.0=pyhd3eb1b0_3
 pickleshare=0.7.5=pyhd3eb1b0_1003
 pillow=8.4.0=py39hd45dc43_0
-pip=21.2.4=py39haa95532_0
+pip=22.0.4=pypi_0
 pkginfo=1.7.1=py39haa95532_0
 pluggy=0.13.1=py39haa95532_0
 ply=3.11=py39haa95532_0
