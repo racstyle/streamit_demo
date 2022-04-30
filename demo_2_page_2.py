@@ -8,12 +8,12 @@ def app():
     if "recent_order_table" in st.session_state:
         st.write(st.session_state["recent_order_table"])
     else:
-        st.warning("Uh oh, you need to visit the first page before you can see this!")
+        st.warning("Uh oh, you need to visit the order page before you can see this!")
     
     st.header("All previous orders")
     if "all_orders_table" in st.session_state:
         st.write(st.session_state["all_orders_table"])
     else:
-        st.warning("Uh oh, you need to visit the first page before you can see this!")
+        st.warning("Uh oh, you need to visit the order page before you can see this!")
     
     return

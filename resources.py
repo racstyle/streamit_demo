@@ -26,7 +26,7 @@ def app():
         st.write("[Streamlit cheatsheet](https://docs.streamlit.io/library/cheatsheet)")
         st.write("[Full Streamlit documentation](https://docs.streamlit.io/library/api-reference)")
         st.write("[Connect Streamlit with backend database](https://docs.streamlit.io/knowledge-base/tutorials/databases)")
-        st.write("[INteractive history of Streamlit](https://docs.streamlit.io/library)")
+        st.write("[Interactive history of Streamlit](https://docs.streamlit.io/library)")
     
     # UIC Engineering Expo
     with resources_cols[1].expander("UIC Engineering Expo"):
