@@ -21,7 +21,7 @@ def app():
         st.write("[Anaconda CLI-only download](https://docs.conda.io/en/latest/miniconda.html)")
     
     # Streamlit
-    with resources_cols[0].expander("Streamlit"):
+    with resources_cols[1].expander("Streamlit"):
         st.write("[Getting started with Streamlit](https://docs.streamlit.io/library/get-started)")
         st.write("[Streamlit cheatsheet](https://docs.streamlit.io/library/cheatsheet)")
         st.write("[Full Streamlit documentation](https://docs.streamlit.io/library/api-reference)")
@@ -29,7 +29,7 @@ def app():
         st.write("[INteractive history of Streamlit](https://docs.streamlit.io/library)")
     
     # UIC Engineering Expo
-    with resources_cols[0].expander("UIC Engineering Expo"):
+    with resources_cols[1].expander("UIC Engineering Expo"):
         st.write("[My Asianeering team's project](https://engineeringexpo.uic.edu/news-stories/caught-you-phone-handed/)")
         st.write("[UIC Engineering Expo website](https://engineeringexpo.uic.edu/)")
         st.write("[Be an Expo judge!](https://engineeringexpo.uic.edu/be-an-expo-judge/)")
