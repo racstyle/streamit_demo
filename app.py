@@ -2,6 +2,7 @@ import streamlit as st
 import demo_1
 import demo_2_page_1
 import demo_2_page_2
+import resources
 
 # Some configurations for Streamlit
 st.set_page_config(page_title="Streamlit Demo", layout="wide")
@@ -16,7 +17,8 @@ st.sidebar.header("Hi there, choose a page where you want to go:")
 pages = {
     "Demo 1 - Basics": demo_1,
     "Demo 2 - Statefulness, Page 1": demo_2_page_1,
-    "Demo 2 - Statefulness, Page 2": demo_2_page_2
+    "Demo 2 - Statefulness, Page 2": demo_2_page_2,
+    "Resources": resources
 }
 
 # Navigation radios, appear in the sidebar
