@@ -144,6 +144,8 @@ def app():
             excel_file_write_active.cell(row=2, column=3, value=form_name[i])       # name
             excel_file_write_active.cell(row=2, column=4, value=form_item[i])       # item
             excel_file_write_active.cell(row=2, column=5, value=form_units[i])      # units
+            excel_file_write_active.cell(row=2, column=6, value=item_pricing[form_item[i]])                     # individual item price
+            excel_file_write_active.cell(row=2, column=7, value=form_units[i] * item_pricing[form_item[i]])     # total price = indiv item price * num units
             excel_file_write.save("example_excel_data.xlsx")    # save the Excel file for each row
         
         # Do not continue unless the form is valid
